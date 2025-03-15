@@ -1,0 +1,38 @@
+E:\mysql-8.0.27-winx64\bin\mysqld mysql
+
+计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mysql
+
+C:\Windows\System32\drivers\etc
+
+mysql 压缩包.zip下载地址
+https://downloads.mysql.com/archives/
+
+查端口占用：
+PS C:\windows\system32> netstat -aon|findstr "3306"
+  TCP    0.0.0.0:3306           0.0.0.0:0              LISTENING       14356
+PS C:\windows\system32> tasklist|findstr 14356
+
+Linux
+root 10086
+test m10086.
+
+查看远程仓库
+git remote -v
+添加远程仓库
+git remote add origin https://github.com/Komorebi-bit/.......
+移除远程仓库
+git remote rm origin
+
+CLASSPATH  E:\JDK\lib\tools.jar;E:\JDK\lib\dt.jar;
+
+Java 17（主要版本 61）、Java 11（55）、Java 8（52）。
+
+//tomcat环境变量配置
+CATALINA_HOME
+%CATALINA_HOME%\bin
+
+
+ostream...
+ostream...
+ostream...
+ostream...
